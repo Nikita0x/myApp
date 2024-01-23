@@ -28,4 +28,20 @@
 			fill-opacity=".5"
 		/>
 	</svg>
+
+	<svg
+        v-else-if="name === 'tick'"
+		width="12"
+		height="10"
+		fill="none"
+		xmlns="http://www.w3.org/2000/svg"
+	>
+		<path
+			d="M11 1 4 9 1 6"
+			stroke="#fff"
+			stroke-width="2"
+			stroke-linecap="round"
+			stroke-linejoin="round"
+		/>
+	</svg>
 </template>
